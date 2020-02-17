@@ -1,3 +1,4 @@
+import { ReferenceEditComponent } from './category/sub-category/references/reference-edit/reference-edit.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -18,7 +19,8 @@ import { AzureLoginComponent } from './azure-login/azure-login.component';
     CategoryComponent,
     SubCategoryComponent,
     ReferenceComponent,
-    AzureLoginComponent
+    AzureLoginComponent,
+    ReferenceEditComponent
   ],
   imports: [
     BrowserModule,
